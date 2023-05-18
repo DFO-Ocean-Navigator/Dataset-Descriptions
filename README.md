@@ -538,7 +538,7 @@ This dataset contains an annual mean generated for years 1996-2019.
 | Water East Velocity (m/s)        |                            |
 | Water North Velocity (m/s)       |                            |
 
-# SalishSeaCasts
+# SalishSeaCast Datasets
 
 For more information see the [SalishSeaCast NEMO Model](https://salishsea.eos.ubc.ca/nemo/) page.
 
