@@ -22,7 +22,7 @@ Geographical Coverage: global ocean
 Spatial Resolution: 1/4 degree latitude and longitude
 Vertical Coverage: 50 levels ranging from 1 m to 250 m thickness at depth
 
-### GIOPS 10 Day Forecast 3D – LatLon
+### GIOPS 10 Day Daily Mean Forecast 3D - LatLon
 
 | Variables from source      | Derived variables                              |
 | -------------------------- | ---------------------------------------------- |
@@ -35,7 +35,7 @@ Vertical Coverage: 50 levels ranging from 1 m to 250 m thickness at depth
 |                            | potential temperature (°C)                     |
 |                            | water velocity (m/s)                           |
 
-### GIOPS 10 Day Forecast Surface – LatLon
+### GIOPS 10 Day 3 Hour Mean Forecast Surface - LatLon
 
 | Variables from source           | Derived variables          |
 | :------------------------------ | :------------------------- |
@@ -49,44 +49,6 @@ Vertical Coverage: 50 levels ranging from 1 m to 250 m thickness at depth
 | Sea Ice North Velocity (m/s)    |                            |
 | Sea Ice Velocity (m/s)          |                            |
 | Sea Surface Height (m)          |                            |
-| Snow Volume (cm)                |                            |
-| Surface Temp Over Sea Ice (°C)  |                            |
-| Turbocline Depth (m)            |                            |
-| Water East Velocity (m/s)       |                            |
-| Water North Velocity (m/s)      |                            |
-|                                 |                            |
-
-### GIOPS Daily Historical 3D – LatLon
-
-This is an archive of the GIOPS 10 Day Forecast 3D – LatLon.
-
-| Variables from source      | Derived variables                              |
-| :------------------------- | :--------------------------------------------- |
-| water salinity (psu)       | Speed of sound (m)                             |
-| water east velocity (m/s)  | sonic layer depth (m)                          |
-| water north velocity (m/s) | sound channel axis (m)                         |
-|                            | critical depth (m)                             |
-|                            | Depth excess (m)                               |
-|                            | potential sub-surface sound channel [no units] |
-|                            | potential temperature (°C)                     |
-|                            | water velocity (m/s)                           |
-|                            |                                                |
-
-### GIOPS 3 hr mean Historical Surface - LatLon
-
-This is the an archive of the 3 hour mean for the GIOPS model starting at 000, 003,…024. The latest date available is the current day.
-
-| Variables from source           | Derived variables          |
-| :------------------------------ | :------------------------- |
-| Compressive Ice Strength (Nm-1) | Potential temperature (°C) |
-| Ice Concentration (fraction)    | Water Velocity (m/s)       |
-| Ice Volume (m)                  |                            |
-| Internal Ice Pressure (Nm-1)    |                            |
-| Ocean Mixed Layer Depth (m)     |                            |
-| Salinity (psu)                  |                            |
-| Sea Ice East Velocity (m/s)     |                            |
-| Sea Ice North Velocity (m/s)    |                            |
-| Sea Ice Velocity (m/s)          |                            |
 | Snow Volume (cm)                |                            |
 | Surface Temp Over Sea Ice (°C)  |                            |
 | Turbocline Depth (m)            |                            |
@@ -266,103 +228,6 @@ Source Data can be accessed on the [HPFX Server](https://hpfx.collab.science.gc.
 | Snow Volume (cm)               |                            |
 | Surface Temp Over Sea Ice (°C) |                            |
 
-### CIOPS Historical Datasets
-
-Historical datasets are archived model data from the CIOPS forecast datasets referenced above. This is an hourly dataset. We are presenting the first 6 hours of each run. There is a new model run every 6 hours (00, 06, 012 and 018).
-
-### CIOPS Historical East 3D – LatLon
-
-| Variables from source      | Derived variables                              |
-| :------------------------- | :--------------------------------------------- |
-| Salinity (psu)             | Potential temperature (°C)                     |
-| Water East Velocity (m/s)  | Water Velocity (m/s)                           |
-| Water North Velocity (m/s) | Speed of sound (m)                             |
-|                            | sonic layer depth (m)                          |
-|                            | sound channel axis (m)                         |
-|                            | potential sub-surface sound channel [no units] |
-|                            | potential temperature (°C)                     |
-|                            | water velocity (m/s)                           |
-|                            |                                                |
-
-### CIOPS Historical East Surface – LatLon
-
-| Variables from source           | Derived variables          |
-| :------------------------------ | :------------------------- |
-| Compressive Ice Strength (Nm-1) | Potential temperature (°C) |
-| Ice Concentration (fraction)    | Water Velocity (m/s)       |
-| Ice Volume (m)                  |                            |
-| Internal Ice Pressure (Nm-1)    |                            |
-| Ocean Mixed Layer Depth (m)     |                            |
-| Salinity (psu)                  |                            |
-| Sea Ice East Velocity (m/s)     |                            |
-| Sea Ice North Velocity (m/s)    |                            |
-| Sea Ice Velocity (m/s)          |                            |
-| Sea Surface Height (m)          |                            |
-| Snow Volume (cm)                |                            |
-| Surface Temp Over Sea Ice (°C)  |                            |
-| Turbocline Depth (m)            |                            |
-| Water East Velocity (m/s)       |                            |
-| Water North Velocity (m/s)      |                            |
-|                                 |                            |
-
-### CIOPS Historical West 3D – LatLon
-
-| Variables from source      | Derived variables                              |
-| :------------------------- | :--------------------------------------------- |
-| Salinity (psu)             | Potential temperature (°C)                     |
-| Water East Velocity (m/s)  | Water Velocity (m/s)                           |
-| Water North Velocity (m/s) | Speed of sound (m)                             |
-|                            | sonic layer depth (m)                          |
-|                            | sound channel axis (m)                         |
-|                            | potential sub-surface sound channel [no units] |
-|                            | potential temperature (°C)                     |
-|                            | water velocity (m/s)                           |
-|                            |                                                |
-
-### CIOPS Historical West Surface – LatLon
-
-| Variables from source           | Derived variables          |
-| :------------------------------ | :------------------------- |
-| Compressive Ice Strength (Nm-1) | Potential temperature (°C) |
-| Ice Concentration (fraction)    | Water Velocity (m/s)       |
-| Ice Volume (m)                  |                            |
-| Internal Ice Pressure (Nm-1)    |                            |
-| Ocean Mixed Layer Depth (m)     |                            |
-| Salinity (psu)                  |                            |
-| Sea Ice East Velocity (m/s)     |                            |
-| Sea Ice North Velocity (m/s)    |                            |
-| Sea Ice Velocity (m/s)          |                            |
-| Sea Surface Height (m)          |                            |
-| Snow Volume (cm)                |                            |
-| Surface Temp Over Sea Ice (°C)  |                            |
-| Turbocline Depth (m)            |                            |
-| Water East Velocity (m/s)       |                            |
-| Water North Velocity (m/s)      |                            |
-|                                 |                            |
-
-### CIOPS Historical Salish Sea 3D – LatLon
-
-| Variables from source      | Derived variables                              |
-| :------------------------- | :--------------------------------------------- |
-| Salinity (psu)             | Potential temperature (°C)                     |
-| Water East Velocity (m/s)  | Water Velocity (m/s)                           |
-| Water North Velocity (m/s) | Speed of sound (m)                             |
-|                            | sonic layer depth (m)                          |
-|                            | sound channel axis (m)                         |
-|                            | potential sub-surface sound channel [no units] |
-|                            |                                                |
-|                            |                                                |
-
-### CIOPS Historical Salish Sea Surface - LatLon
-
-| Variables from source          | Derived variables          |
-| :----------------------------- | :------------------------- |
-| Ocean Mixed Layer Depth (m)    | Potential temperature (°C) |
-| Salinity (psu)                 | Water Velocity (m/s)       |
-| Sea Ice Velocity (m/s)         |                            |
-| Sea Surface Height (m)         |                            |
-| Snow Volume (cm)               |                            |
-| Surface Temp Over Sea Ice (°C) |                            |
 
 ## Global Deterministic Wave Prediction System (GDWPS)
 
