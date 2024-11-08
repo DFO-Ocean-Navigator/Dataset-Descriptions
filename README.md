@@ -261,7 +261,7 @@ Variables for 2D (surface) available in the Ocean Navigator are listed. Derived 
 
 Source Data can be accessed on the [HPFX Server](https://hpfx.collab.science.gc.ca/) under _/dfo/pops_model/___timestamp___/_.
 
-The delivery of the POPS system is best-effort service and support line is available during business hour. 
+The delivery of the POPS system is a best-effort service and a support line is available during business hours. 
 
 
 ## Global Deterministic Wave Prediction System (GDWPS)
