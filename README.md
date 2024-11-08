@@ -228,6 +228,41 @@ Source Data can be accessed on the [HPFX Server](https://hpfx.collab.science.gc.
 | Snow Volume (cm)               |                            |
 | Surface Temp Over Sea Ice (°C) |                            |
 
+## Port Ocean Prediction Systems (POPS)
+
+The Port Ocean Prediction Systems(POPS) produces 48 hours forecast daily and these products are available in NetCDF format on a latitude and longitude grid. The POPS system covers areas around six high priority ports with their domain names and resolutions listed as follows:
+
+| Domain Names	                 | Domain Full Name	            | Resolution     |
+| ------------------------------ | ---------------------------- | -------------- |
+| West Coast Ports                                                               |
+| sss150                         | South Salish Sea             | ~130 m         |
+| vh20                           | Vancouver Harbor             | ~26 m          |
+| sf30                           | Fraser River                 | ~30 m          |
+| kit100/kit500                  | Kitimat and surrounding area | ~100 or ~500 m |
+| East Coast Ports                                                               |
+| stle200/stle500                | St. Lawrence River           | ~200 or ~500 m |
+| fundy500                       | Bay of Fundy                 | ~500 m         |
+| sj100                          | Port of Saint John           | ~85 m          |
+| canso100/canso500              | Canso                        | ~100 or ~500 m |
+
+Their domains of each port are shown below:
+
+![alt text](images/pops_west.png)
+![alt text](images/pops_east.png)
+
+Variables for 2D (surface) available in the Ocean Navigator are listed. Derived variables are calculated on the fly by the Ocean Navigator application. 
+
+| Variable from source       |	Derived variables   |
+| -------------------------- | -------------------- |
+| Sea water temperature (K)	 | Water velocity (m/s) |
+| Sea water salinity (psu)	 |                      |
+| Sea water x velocity (m/s) |                      |
+| Sea water y velocity (m/s) |                      |
+
+Source Data can be accessed on the [HPFX Server](https://hpfx.collab.science.gc.ca/) under _/dfo/pops_model/___timestamp___/_.
+
+The delivery of the POPS system is best-effort service and support line is available during business hour. 
+
 
 ## Global Deterministic Wave Prediction System (GDWPS)
 
